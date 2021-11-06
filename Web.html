@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brazos robóticos</title>
+</head>
+<body style="background-image: url('fondo.jpg');
+background-repeat: no-repeat; background-attachment: fixed;
+background-size: 100% 100%; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+<h1 style="text-align: center; color: darkblue;">Control de brazos robóticos</h1>
+<div style="text-align:center; padding: 20px;">
+    <h2>Brazo izquierdo</h2>
+
+    <h4>Motor en el hombro</h4>
+    <form>
+        <label for="fpos1_i">Posición (grad):</label>
+        <input type="text" id="fpos1_i" name="fpos1_i"><br>
+        <label for="fvel1_i">Velocidad (grad/s):</label>
+        <input type="text" id="fvel1_i" name="fvel1_i"><br>
+        <label for="ftor1_i">Torque (Nm):</label>
+        <input type="text" id="ftor1_i" name="ftor1_i"><br>
+        <label for="fkp1_i">KP:</label>
+        <input type="text" id="fkp1_i" name="fkp1_i"><br>
+        <label for="fkd1_i">KD:</label>
+        <input type="text" id="fkd1_i" name="fkd1_i"><br>
+        <input type="submit" value="Actualizar datos motor 1 del brazo izquierdo">
+    </form>
+
+    <h4>Motor en el codo</h4>
+    <form>
+        <label for="fpos2_i">Posición (grad):</label>
+        <input type="text" id="fpos2_i" name="fpos2_i"><br>
+        <label for="fvel2_i">Velocidad (grad/s):</label>
+        <input type="text" id="fvel2_i" name="fvel2_i"><br>
+        <label for="ftor2_i">Torque (Nm):</label>
+        <input type="text" id="ftor2_i" name="ftor2_i"><br>
+        <label for="fkp2_i">KP:</label>
+        <input type="text" id="fkp2_i" name="fkp2_i"><br>
+        <label for="fkd2_i">KD:</label>
+        <input type="text" id="fkd2_i" name="fkd2_i"><br>
+        <input type="submit" value="Actualizar datos motor 2 del brazo izquierdo">
+    </form>
+
+    <h4>Motor en la ventosa</h4>
+    <form>
+        <label for="fpos3_i">Posición (grad):</label>
+        <input type="text" id="fpos3_i" name="fpos3_i"><br>
+        <label for="fvel3_i">Velocidad (grad/s):</label>
+        <input type="text" id="fvel3_i" name="fvel3_i"><br>
+        <label for="ftor3_i">Torque (Nm):</label>
+        <input type="text" id="ftor3_i" name="ftor3_i"><br>
+        <label for="fkp3_i">KP:</label>
+        <input type="text" id="fkp3_i" name="fkp3_i"><br>
+        <label for="fkd3_i">KD:</label>
+        <input type="text" id="fkd3_i" name="fkd3_i"><br>
+        <input type="submit" value="Actualizar datos motor 3 del brazo izquierdo">
+    </form>
+
+</div>
+
+<div style="text-align: center; padding: 20px;">
+
+    <h2>Brazo derecho</h2>
+    
+    <h4>Motor en el hombro</h4>
+    <form>
+        <label for="fpos1_d">Posición (grad):</label>
+        <input type="text" id="fpos1_d" name="fpos1_d"><br>
+        <label for="fvel1_d">Velocidad (grad/s):</label>
+        <input type="text" id="fvel1_d" name="fvel1_d"><br>
+        <label for="ftor1_d">Torque (Nm):</label>
+        <input type="text" id="ftor1_d" name="ftor1_d"><br>
+        <label for="fkp1_d">KP:</label>
+        <input type="text" id="fkp1_d" name="fkp1_d"><br>
+        <label for="fkd1_d">KD:</label>
+        <input type="text" id="fkd1_d" name="fkd1_d"><br>
+        <input type="submit" value="Actualizar datos motor 1 del brazo derecho">
+    </form>
+
+    <h4>Motor en el codo</h4>
+    <form>
+        <label for="fpos2_d">Posición (grad):</label>
+        <input type="text" id="fpos2_d" name="fpos2_d"><br>
+        <label for="fvel2_d">Velocidad (grad/s):</label>
+        <input type="text" id="fvel2_d" name="fvel2_d"><br>
+        <label for="ftor2_d">Torque (Nm):</label>
+        <input type="text" id="ftor2_d" name="ftor2_d"><br>
+        <label for="fkp2_d">KP:</label>
+        <input type="text" id="fkp2_d" name="fkp2_d"><br>
+        <label for="fkd2_d">KD:</label>
+        <input type="text" id="fkd2_d" name="fkd2_d"><br>
+        <input type="submit" value="Actualizar datos motor 2 del brazo derecho">
+    </form>
+
+    <h4>Motor en la ventosa</h4>
+    <form>
+        <label for="fpos3_d">Posición (grad):</label>
+        <input type="text" id="fpos3_d" name="fpos3_d"><br>
+        <label for="fvel3_d">Velocidad (grad/s):</label>
+        <input type="text" id="fvel3_d" name="fvel3_d"><br>
+        <label for="ftor3_d">Torque (Nm):</label>
+        <input type="text" id="ftor3_d" name="ftor3_d"><br>
+        <label for="fkp3_d">KP:</label>
+        <input type="text" id="fkp3_d" name="fkp3_d"><br>
+        <label for="fkd3_d">KD:</label>
+        <input type="text" id="fkd3_d" name="fkd3_d"><br>
+        <input type="submit" value="Actualizar datos motor 3 del brazo derecho">
+    </form>
+
+</div>
+
+</body>
+</html>
